@@ -9,6 +9,6 @@ Ecwid.OnPageLoaded.add(function(page){
     code.value = '101000';
     code.dispatchEvent(new Event('input', { bubbles: true }));
     
-    document.querySelector('[name="province"]').value = 77;
+    document.querySelector('select[name="province"]').value = 77;
   }
 });
