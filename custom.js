@@ -8,5 +8,7 @@ Ecwid.OnPageLoaded.add(function(page){
     code = document.querySelector('#ec-postal-code');
     code.value = '101000';
     code.dispatchEvent(new Event('input', { bubbles: true }));
+    
+    document.querySelector('[name="province"]').value = 77;
   }
 });
